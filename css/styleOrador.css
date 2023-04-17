@@ -100,9 +100,9 @@ body {
 footer {
     background-color: #1d4054;
     margin-top: 1rem;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    padding: .5rem;
+    color: white;
+    text-align: center;
 }
 
 .nav-link {
