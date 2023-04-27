@@ -36,7 +36,7 @@
             <a class="nav-link" href="#">EL lugar y la fecha</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="orador.html">Conviértete en orador</a>
+            <a class="nav-link" href="#">Conviértete en orador</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" style="color: green;">Comprar tickets</a>
@@ -50,127 +50,128 @@
 
 
   <!--Descuentos-->
+  <div class="container">
 
-  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
 
-    <div class="col">
-      <div class="card h-100 border-primary">
-
-        <div class="card-body">
-          <h5 class="card-title text-center fw-bold">Estudiante</h5>
-          <p class="card-text text-center">Tiene un descuento</p>
-          <h5 class="card-text text-center">80%</h5>
-        </div>
-        <p class="card-text text-center"><small class="text-muted">* presentar documentacion</small></p>
-
-      </div>
-
-    </div>
-
-    <div class="col">
-      <div class="card h-100 border-success">
-
-        <div class="card-body">
-          <h5 class="card-title text-center fw-bold">Trainee</h5>
-          <p class="card-text text-center">Tiene un descuento</p>
-          <h5 class="card-title text-center fw-bold">50%</h5>
-        </div>
-        <p class="card-text text-center"><small class="text-muted">* presentar documentacion</small></p>
-      </div>
-
-    </div>
-
-    <div class="col">
-      <div class="card h-100 border-warning">
-
-        <div class="card-body">
-          <h5 class="card-title text-center fw-bold">Junior</h5>
-          <p class="card-text text-center">Tiene un descuento</p>
-          <h5 class="card-title text-center fw-bold">15%</h5>
-        </div>
-        <p class="card-text text-center"><small class="text-muted">* presentar documentacion</small></p>
-      </div>
-
-    </div>
-    
-  </div>
-
-
-
-  <span class="formText">
-    <p style="text-align: center;">VENTA</p>
-    <h2 style="text-align: center;">VALOR DE TICKET $200</h2>
-  </span>
-
-
-  <!--formulario-->
-
-  <form id="formulario" action="" class="formulario">
-
-    <div class="row">
       <div class="col">
-        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" name="nombre" id="nombre" pattern="[a-zA-Z]+">
+        <div class="card h-100 border-primary">
+
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">Estudiante</h5>
+            <p class="card-text text-center">Tiene un descuento</p>
+            <h5 class="card-text text-center">80%</h5>
+          </div>
+          <p class="card-text text-center"><small class="text-muted">* presentar documentacion</small></p>
+
+        </div>
+
       </div>
+
       <div class="col">
-        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" name="apellido" pattern="[a-zA-Z]+">
+        <div class="card h-100 border-success">
+
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">Trainee</h5>
+            <p class="card-text text-center">Tiene un descuento</p>
+            <h5 class="card-title text-center fw-bold">50%</h5>
+          </div>
+          <p class="card-text text-center"><small class="text-muted">* presentar documentacion</small></p>
+        </div>
+
       </div>
+
+      <div class="col">
+        <div class="card h-100 border-warning">
+
+          <div class="card-body">
+            <h5 class="card-title text-center fw-bold">Junior</h5>
+            <p class="card-text text-center">Tiene un descuento</p>
+            <h5 class="card-title text-center fw-bold">15%</h5>
+          </div>
+          <p class="card-text text-center"><small class="text-muted">* presentar documentacion</small></p>
+        </div>
+
+      </div>
+
     </div>
 
 
-    <!--CORREO-->
 
-    <div class="form-floating2">
-      <input type="email" class="form-control" id="floatingCorreo" placeholder="Correo" name="correo">
-    </div>
+    <span class="formText">
+      <p style="text-align: center;">VENTA</p>
+      <h2 style="text-align: center;">VALOR DE TICKET $200</h2>
+    </span>
 
-  
+
+    <!--formulario-->
+
+    <form id="formulario" action="" class="formulario">
+
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" name="nombre" id="nombre"
+            pattern="[a-zA-Z]+">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" name="apellido"
+            pattern="[a-zA-Z]+">
+        </div>
+      </div>
+
+
+      <!--CORREO-->
+
+      <div class="form-floating2">
+        <input type="email" class="form-control" id="floatingCorreo" placeholder="Correo" name="correo">
+      </div>
+
+
       <!--CANTIDAD -->
 
-    <div class="row">
-      <div class="col">
-        <label for="formGroupExampleInput" type="int" class="form-label" id="cantidad" name="cantidad">Cantidad</label>
-        <input type="number" class="form-control" name="cantidad" id="cantidad" placeholder="cantidad">
-      </div>
-    
-      <!--CATEGORIA-->
-      <div class="col">
-        <label for="formGroupExampleInput" class="form-label">Categoria</label>
-        <select id="categ"  class="form-select" aria-label="Default select example"  >
-          <option value="Estudiante">Estudiante</option>
-          <option value="Trainee" >Trainee</option>
-          <option value="Junior" >Junior</option>
-        </select>
-      </div>
-     
-    </div>
+      <div class="row">
+        <div class="col">
+          <label for="formGroupExampleInput" type="int" class="form-label" id="cantidad"
+            name="cantidad">Cantidad</label>
+          <input type="number" class="form-control" name="cantidad" id="cantidad" placeholder="cantidad">
+        </div>
 
-    <!--TOTAL A PAGAR-->
+        <!--CATEGORIA-->
+        <div class="col">
+          <label for="formGroupExampleInput" class="form-label">Categoria</label>
+          <select id="categ" class="form-select" aria-label="Default select example">
+            <option value="Estudiante">Estudiante</option>
+            <option value="Trainee">Trainee</option>
+            <option value="Junior">Junior</option>
+          </select>
+        </div>
 
-    <div id="resultado" type="text" class="alert alert-primary" role="alert" >
-      
-      Total a Pagar: $
-    </div>
-
-    <!--BOTON-->
-    <div class="row">
-      <div class="col">
-        <button onclick="borrar();" class="btn btn-success" >Borrar</button>
-        <button type="submit" class="btn btn-success">Resumen</button>
       </div>
-    </div>
-  </form>
-  
+
+      <!--TOTAL A PAGAR-->
+
+      <div id="resultado" type="text" class="alert alert-primary" role="alert">
+
+        Total a Pagar: $
+      </div>
+
+      <!--BOTON-->
+      <div class="row">
+        <div class="col">
+          <button onclick="borrar();" class="btn btn-success">Borrar</button>
+          <button type="submit" class="btn btn-success">Resumen</button>
+        </div>
+      </div>
+    </form>
+  </div>
 
   <!--PIE-->
 
-  
+
   <footer>
 
-   <ul>
-    <li>Todos los derechos reservados ©</li>
-   </ul>
-
-
+    <p>Todos los derechos reservados ©</p>
+    
   </footer>
 
   <!--booststrap-->
@@ -180,9 +181,9 @@
     </script>
 
   <script>
-     
+
     const $formulario = document.querySelector('#formulario');
-    var cantidad,precio=200,cantidad_ini, dropdownSelect,tipoDescuento,totalPrecio,totalPrecioConDesc;
+    var cantidad, precio = 200, cantidad_ini, dropdownSelect, tipoDescuento, totalPrecio, totalPrecioConDesc;
     $formulario.addEventListener('submit', handleSubmit)
 
     function handleSubmit(event) {
@@ -198,34 +199,34 @@
       tipoDescuento = dropdownSelect.options[dropdownSelect.selectedIndex].text;
 
       totalPrecio = precio * cantidad_ini;
-      calculo(totalPrecio);      
-      document.getElementById("resultado").textContent = "Total a Pagar: $"+ totalPrecioConDesc;
- 
+      calculo(totalPrecio);
+      document.getElementById("resultado").textContent = "Total a Pagar: $" + totalPrecioConDesc;
+
     }
 
-   
-      function calculo(totalPrecio){
 
-        switch (tipoDescuento) {
+    function calculo(totalPrecio) {
+
+      switch (tipoDescuento) {
         case 'Estudiante':
-        totalPrecioConDesc=totalPrecio*0.2;
+          totalPrecioConDesc = totalPrecio * 0.2;
           break;
         case 'Trainee':
-        totalPrecioConDesc=totalPrecio*0.5;
+          totalPrecioConDesc = totalPrecio * 0.5;
           break;
-          case 'Junior':
-          totalPrecioConDesc=totalPrecio*0.85;
+        case 'Junior':
+          totalPrecioConDesc = totalPrecio * 0.85;
           break;
-            
+
         default:
           console.log("No tiene cargado un tipo de descuento");
           break;
       }
-      }
+    }
 
-      function borrar(){
-        document.forms[0].reset();
-      }
+    function borrar() {
+      document.forms[0].reset();
+    }
   </script>
 
 

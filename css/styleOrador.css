@@ -1,14 +1,21 @@
-* {
+html {
+    font-size: 62.5%;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
     background: white;
+    min-height: 100vh;
 }
 
 /*navegador*/
@@ -39,6 +46,13 @@ body {
 .navbar ul a:hover {
     color: white;
 }
+.container{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 /*formulario*/
 
@@ -99,10 +113,11 @@ body {
 
 footer {
     background-color: #1d4054;
-    margin-top: 1rem;
-    padding: .5rem;
     color: white;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .nav-link {
